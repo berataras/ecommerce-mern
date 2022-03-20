@@ -1,0 +1,49 @@
+.userShow {
+  flex: 1;
+  padding: 20px;
+  -webkit-box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+.userShow .userShowTop {
+  display: flex;
+  align-items: center;
+}
+.userShow .userShowTop .userShowImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.userShow .userShowTop .userShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.userShow .userShowTop .userShowTopTitle .userShowUsername {
+  font-weight: 600;
+}
+.userShow .userShowTop .userShowTopTitle .userShowUserTitle {
+  font-weight: 300;
+}
+.userShow .userShowBottom {
+  margin-top: 20px;
+}
+.userShow .userShowBottom .userShowTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #afaaaa;
+}
+.userShow .userShowBottom .userShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: #444;
+}
+.userShow .userShowBottom .userShowInfo .userShowInfoTitle {
+  margin-left: 10px;
+}
+.userShow .userShowBottom .userShowInfo .userShowIcon {
+  font-size: 16px !important;
+}
+
+/*# sourceMappingURL=userShowWidget.css.map */

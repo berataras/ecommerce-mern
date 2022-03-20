@@ -1,0 +1,11 @@
+.createUser .createUserForm {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.createUser .createUserForm .createUserFormItem {
+  display: flex;
+  margin: 10px 0;
+}
+
+/*# sourceMappingURL=userCreate.css.map */

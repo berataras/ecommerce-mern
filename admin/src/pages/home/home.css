@@ -1,0 +1,12 @@
+.home .homeWidgets {
+  display: flex;
+  gap: 0 30px;
+}
+@media (max-width: 768px) {
+  .home .homeWidgets {
+    flex-direction: column;
+    gap: 10px 0;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */

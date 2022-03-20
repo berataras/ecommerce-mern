@@ -1,0 +1,55 @@
+.topbar {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.topbar .topbarWrapper {
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topbar .topbarWrapper .topLeft .logo {
+  font-weight: bolder;
+  font-size: 24px;
+}
+.topbar .topbarWrapper .topRight {
+  display: flex;
+  justify-content: default;
+  align-items: center;
+}
+.topbar .topbarWrapper .topRight .topbarItem {
+  position: relative;
+  margin-left: 15px;
+  color: #555;
+}
+.topbar .topbarWrapper .topRight .topbarItem svg {
+  display: flex;
+}
+.topbar .topbarWrapper .topRight .topbarItem .topIconBag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  font-size: 10px;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bolder;
+}
+.topbar .topbarWrapper .topRight .topbarItem .topAvatar {
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+/*# sourceMappingURL=Topbar.css.map */

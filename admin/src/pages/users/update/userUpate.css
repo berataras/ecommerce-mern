@@ -1,0 +1,29 @@
+.user .userTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user .userTitleContainer .userAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+.user .userContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 30px;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .user .userContainer {
+    grid-template-columns: 1fr;
+    gap: 10px 0;
+  }
+}
+
+/*# sourceMappingURL=userUpate.css.map */

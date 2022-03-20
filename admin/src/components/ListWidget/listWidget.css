@@ -1,0 +1,51 @@
+.listWidget {
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  width: 100%;
+  padding: 20px;
+  flex: 1;
+}
+.listWidget .widgetTitle {
+  font-size: 22px;
+  font-weight: 600;
+}
+.listWidget .widgetList .widgetListItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+.listWidget .widgetList .widgetListItem .widgetImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+.listWidget .widgetList .widgetListItem .widgetUser {
+  display: flex;
+  flex-direction: column;
+}
+.listWidget .widgetList .widgetListItem .widgetUser .widgetUserName {
+  font-weight: 600;
+}
+.listWidget .widgetList .widgetListItem .widgetUser .widgetUserTitle {
+  font-weight: 300;
+}
+.listWidget .widgetList .widgetListItem .widgetButton {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 10px;
+  background-color: #eeeef7;
+  color: #555;
+  cursor: pointer;
+}
+.listWidget .widgetList .widgetListItem .widgetButton .widgetIcon {
+  font-size: 16px !important;
+  margin-right: 5px;
+}
+
+/*# sourceMappingURL=ListWidget.css.map */

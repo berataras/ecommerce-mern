@@ -1,0 +1,13 @@
+.customRadio {
+  display: flex;
+}
+.customRadio input {
+  margin-top: 15px;
+}
+.customRadio label {
+  margin: 10px;
+  font-size: 16px;
+  color: #979696;
+}
+
+/*# sourceMappingURL=customRadio.css.map */

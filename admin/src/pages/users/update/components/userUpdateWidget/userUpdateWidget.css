@@ -1,0 +1,69 @@
+.userUpdate {
+  flex: 2;
+  padding: 20px;
+  -webkit-box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+.userUpdate .userUpdateTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+.userUpdate .userUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .userUpdate .userUpdateForm {
+    flex-direction: column-reverse;
+  }
+}
+.userUpdate .userUpdateForm .userUpdateLeft {
+  padding-right: 20px;
+}
+.userUpdate .userUpdateForm .userUpdateLeft .userUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.userUpdate .userUpdateForm .userUpdateLeft .userUpdateItem > label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.userUpdate .userUpdateForm .userUpdateLeft .userUpdateItem .userUpdateInput {
+  border: none;
+  width: 100%;
+  min-width: 250px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+.userUpdate .userUpdateForm .userUpdateLeft .userUpdateItem .userUpdateButton {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+}
+.userUpdate .userUpdateForm .userUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.userUpdate .userUpdateForm .userUpdateRight .userUpdateUpload {
+  display: flex;
+  align-items: center;
+}
+.userUpdate .userUpdateForm .userUpdateRight .userUpdateUpload .userUpdateImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.userUpdate .userUpdateForm .userUpdateRight .userUpdateUpload .userUpdateIcon {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=userUpdateWidget.css.map */

@@ -1,0 +1,54 @@
+@import "../../styles/utils/alignment";
+@import "../../styles/utils/theme";
+@import "../../styles/utils/responsive";
+
+.listWidget{
+  @include boxShadow;
+  width: 100%;
+  padding: 20px;
+  flex: 1;
+
+  .widgetTitle{
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .widgetList{
+    .widgetListItem{
+      @include alignment(flex, space-between, center);
+      margin: 20px 0;
+      .widgetImage{
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        object-fit: cover;
+        margin-right: 15px;
+      }
+      .widgetUser{
+        @include alignment(flex, null, null, column);
+
+        .widgetUserName{
+          font-weight: 600;
+        }
+        .widgetUserTitle{
+          font-weight: 300;
+        }
+      }
+      .widgetButton{
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        border: none;
+        border-radius: 10px;
+        padding: 7px 10px;
+        background-color: #eeeef7;
+        color: #555;
+        cursor: pointer;
+        .widgetIcon{
+          font-size: 16px !important;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}

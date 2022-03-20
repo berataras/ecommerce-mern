@@ -1,0 +1,12 @@
+@import "../../styles/utils/responsive";
+
+.home{
+  .homeWidgets{
+    display: flex;
+    gap: 0 30px;
+    @include media(tablet){
+      flex-direction: column;
+      gap: 10px 0;
+    }
+  }
+}

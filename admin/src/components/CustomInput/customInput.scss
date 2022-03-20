@@ -1,0 +1,21 @@
+@import "../../styles/utils/alignment";
+
+.customInput {
+  @include alignment(flex, null, null, column);
+  margin: 10px 0;
+
+  > label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+  }
+
+  > input {
+    height: 20px;
+
+    padding: 20px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+}

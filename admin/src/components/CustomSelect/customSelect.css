@@ -1,0 +1,19 @@
+.customSelect {
+  width: 100%;
+}
+.customSelect > label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #979696;
+}
+.customSelect > select {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid darkblue;
+  padding: 0 10px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=customSelect.css.map */
